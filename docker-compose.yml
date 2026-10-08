@@ -1,0 +1,5 @@
+services:
+  web:
+    image: docker-lab:v1
+    ports:
+      - "8080:80"
